@@ -1,1 +1,1 @@
-# Smart-Medbox-System-Companion-Setup-App
+# Smart-Medbox-System-Setup-App
