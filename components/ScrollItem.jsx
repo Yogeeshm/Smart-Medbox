@@ -3,11 +3,12 @@ import { StyleSheet, Text, View, Dimensions, Pressable } from 'react-native'
 import { responsiveHeight, responsiveWidth, responsiveFontSize } from "react-native-responsive-dimensions";
 
 const ScrollItem = (props) => {
-    let color = '#545454'
+    let color = '#green'
     let fontSize = responsiveFontSize(2.5)
     if(props.number==props.current){
             fontSize = responsiveFontSize(6)
-            color = '#dedede'
+            color = '#1976D2'
+           
     }
     else if(parseInt(props.number)==props.current-1 || parseInt(props.number)==props.current+1 || (props.current==59 && parseInt(props.number)=='00') || (props.current==0 && parseInt(props.number)=='59')  || (props.current==23 && parseInt(props.number)=='00') || (props.current==0 && parseInt(props.number)=='23')){
             fontSize = responsiveFontSize(4)
