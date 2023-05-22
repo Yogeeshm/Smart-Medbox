@@ -547,7 +547,10 @@ const AlarmOptionsScreen = (props) => {
           showsVerticalScrollIndicator={false}
           onScroll={scrollHours}
           data={hoursArray}
+<<<<<<< HEAD
           
+=======
+>>>>>>> ee1af26e7fa31e486f91038d6577749ddaa25e51
           renderItem={renderHour}
           ref={(ref) => (hourFlatlistRef = ref)}
           initialScrollIndex={23 + hours}
@@ -563,7 +566,11 @@ const AlarmOptionsScreen = (props) => {
         ></FlatList>
         <FlatList
           key={"minutes"}
+<<<<<<< HEAD
           style={[styles.scrollView]}
+=======
+          style={styles.scrollView}
+>>>>>>> ee1af26e7fa31e486f91038d6577749ddaa25e51
           showsVerticalScrollIndicator={false}
           onScroll={scrollMinutes}
           data={minutesArray}
@@ -694,7 +701,11 @@ export default AlarmOptionsScreen;
 const styles = StyleSheet.create({
   screen: {
     flex: 1,
+<<<<<<< HEAD
   
+=======
+    backgroundColor: "purple",
+>>>>>>> ee1af26e7fa31e486f91038d6577749ddaa25e51
   },
   header: {
     flex: 1,
@@ -725,7 +736,10 @@ const styles = StyleSheet.create({
     width: Dimensions.get("window").width,
     backgroundColor: "rgb(20,40,20)",
     flexDirection: "row",
+<<<<<<< HEAD
     color:"blue"
+=======
+>>>>>>> ee1af26e7fa31e486f91038d6577749ddaa25e51
   },
   scrollView: {
     flex: 1,

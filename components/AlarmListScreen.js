@@ -110,7 +110,11 @@ const AlarmListScreen = (props) => {
   return (
     <>
       <View style={styles.header}>
+<<<<<<< HEAD
         <Text style={styles.textHead}>SMART MEDBOX</Text>
+=======
+        <Text style={styles.textHead}>Smart Medbox</Text>
+>>>>>>> ee1af26e7fa31e486f91038d6577749ddaa25e51
       </View>
 
       <View style={styles.subheader}>
