@@ -3,8 +3,7 @@ import { StyleSheet, Text, View, Dimensions, Switch, Animated, Pressable, Image,
 import { responsiveHeight, responsiveWidth, responsiveFontSize } from "react-native-responsive-dimensions";
 import Database from './Database';
 
- const ESP8266_IP = '192.168.108.53';
-//const ESP8266_IP = '192.168.29.88';
+
 const ESP8266_PORT = 80;
 
 const AlarmListItem = (props) => {
