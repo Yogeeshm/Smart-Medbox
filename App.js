@@ -27,6 +27,7 @@ export default function App() {
             options={{
               headerStyle: { backgroundColor: 'black' },
               headerTintColor: 'white',
+              headerShown: false,
             }}
           >
           </Stack.Screen>

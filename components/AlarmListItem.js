@@ -8,6 +8,8 @@ import * as Device from 'expo-device';
 import * as Notifications from 'expo-notifications';
 import { Alert } from 'react-native';
 
+const ESP8266_IP = '192.168.108.53';
+//const ESP8266_IP = '192.168.29.88';
 const ESP8266_PORT = 80;
 
 const AlarmListItem = (props) => {
@@ -56,7 +58,7 @@ const AlarmListItem = (props) => {
         let alertShown = false;
         if(pillCount==1 && !alertShown)
         {
-           alert(`Only One Pill Remaining in Slot ${slotNumber} Refill/Update Info Requested`);
+           alert(`Only One Pill Remaining in Slot ${slotNumber} Refill immediately `);
            alertShown = true;
         }
         // console.log(props.alarm)

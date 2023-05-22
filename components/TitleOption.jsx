@@ -68,15 +68,15 @@ const TitleOption = (props) => {
       onValueChange={(itemValue) => setSelectedBox(itemValue)}
       style={{color:'white',marginLeft:"7%",marginRight:"7%"}}
       >
-        <Picker.Item label="Select Slot Number" value="" />
-        <Picker.Item label="Slot 1" value="1" />
-        <Picker.Item label="Slot 2" value="2" />
-        <Picker.Item label="Slot 3" value="3" />
-        <Picker.Item label="Slot 4" value="4" />
-        <Picker.Item label="Slot 5" value="5" />
-        <Picker.Item label="Slot 6" value="6" />
-        <Picker.Item label="Slot 7" value="7" />
-        <Picker.Item label="Slot 8" value="8" />
+        <Picker.Item style={{fontSize:17}}label="Select Slot Number" value="" />
+        <Picker.Item style={{fontSize:17}}label="Slot 1" value="1" />
+        <Picker.Item style={{fontSize:17}}label="Slot 2" value="2" />
+        <Picker.Item style={{fontSize:17}}label="Slot 3" value="3" />
+        <Picker.Item style={{fontSize:17}}label="Slot 4" value="4" />
+        <Picker.Item style={{fontSize:17}}label="Slot 5" value="5" />
+        <Picker.Item style={{fontSize:17}}label="Slot 6" value="6" />
+        <Picker.Item style={{fontSize:17}}label="Slot 7" value="7" />
+        <Picker.Item style={{fontSize:17}}label="Slot 8" value="8" />
       </Picker>
     </View>
             
@@ -94,11 +94,11 @@ const TitleOption = (props) => {
 <Picker
   selectedValue={pillNum}
   onValueChange={(itemValue) => setPillNum(itemValue)}
-  style={{ color: 'white', marginLeft: '7%', marginRight: '7%' }}
+  style={{ color: 'white', marginLeft: '7%', marginRight: '7%',fontSize:25 }}
 >
-  <Picker.Item label="Select Number of Pill Inserted" value="" />
-  {daysInMonth.map((day) => (
-    <Picker.Item key={day} label={day.toString()} value={day.toString()} />
+  <Picker.Item style={{fontSize:17}} label="Select Number of Pill Inserted" value="" />
+  {daysInMonth.map((day) => ( 
+    <Picker.Item style={{fontSize:17}}key={day} label={day.toString()} value={day.toString()} />
   ))}
 </Picker>
                 
